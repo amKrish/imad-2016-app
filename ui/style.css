@@ -101,23 +101,27 @@ span{
 	font-size: 16px;
 }
 
-.Palette1, .Palette2, .Palette3, .Palette4, .Palette5{
+.Palette1, .Palette2, .Palette3, .Palette4, .Palette5, .Palette6, .Palette7, .Palette8, .Palette9, .Palette10{
 	margin-left: 100px;
-	margin-top: 160px;
+	margin-top: 60px;
 	width: 50px;
 	height: 50px;
 	float: left;
 
-	transition: width 500ms ease-in, height 500ms ease-in;
+	transition: width 250ms ease-in, height 250ms ease-in;
+}
+
+.Ptext1{
+
 }
 
 .Palette1 p{
 	color: black;
 }
 
-.Palette1:hover, .Palette2:hover, .Palette3:hover, .Palette4:hover, .Palette5:hover{
-	width: 60px;
-	height: 60px;
+.Palette1:hover, .Palette2:hover, .Palette3:hover, .Palette4:hover, .Palette5:hover, .Palette6:hover, .Palette7:hover, .Palette8:hover, .Palette9:hover, .Palette10:hover{
+	width: 55px;
+	height: 55px;
 }
 
 
